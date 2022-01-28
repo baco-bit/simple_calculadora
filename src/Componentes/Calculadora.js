@@ -74,7 +74,7 @@ const Calculadora = () => {
             <button onClick={() => { clickOperacion('-') }}>-</button>
             <button onClick={() => { clickNumber('.') }}>.</button>
             <button onClick={() => { clickNumber(0) }}>0</button>
-            <button onClick={getResultado} className='span-two'>=</button>
+            <button onClick={getResultado} className='igual'>=</button>
 
 
 
