@@ -15,16 +15,17 @@ body
     display: grid;
     justify-content: center;
     align-content: center;
-    
 }
 
 .titulo
 {
     display: flex;
     justify-content: center;
-    font-size: larger;
-    text-shadow: 2px 2px 3px rgb(255, 255, 255);
-    color: rgba(0, 0, 0, 0.7);
+    margin-bottom: -50px;
+    text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.75);
+    color: rgba(0, 0, 0,1);
+    font-family: 'Architects Daughter', cursive;
+    font-size: 20px;
 }
 .calculadora-grid
 {
@@ -66,9 +67,9 @@ body
     background: #d20000;
 }
 
-.igual
+.calculadora-grid .suma
 {
-    grid-column: span 2;
+    grid-row: span 2;
 }
 
 .output 
@@ -100,5 +101,4 @@ body
 {
     color: rgb(0, 0, 0);
     font-size: 1.5rem;
-    
 }

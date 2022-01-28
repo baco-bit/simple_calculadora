@@ -67,11 +67,11 @@ const Calculadora = () => {
             <button onClick={() => { clickNumber(4) }}>4</button>
             <button onClick={() => { clickNumber(5) }}>5</button>
             <button onClick={() => { clickNumber(6) }}>6</button>
-            <button onClick={() => { clickOperacion('+') }}>+</button>
+            <button onClick={() => { clickOperacion('-') }}>-</button>
             <button onClick={() => { clickNumber(1) }}>1</button>
             <button onClick={() => { clickNumber(2) }}>2</button>
             <button onClick={() => { clickNumber(3) }}>3</button>
-            <button onClick={() => { clickOperacion('-') }}>-</button>
+            <button className='suma' onClick={() => { clickOperacion('+') }}>+</button>
             <button onClick={() => { clickNumber('.') }}>.</button>
             <button onClick={() => { clickNumber(0) }}>0</button>
             <button onClick={getResultado} className='igual'>=</button>
