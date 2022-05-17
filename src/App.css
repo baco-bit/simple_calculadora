@@ -63,7 +63,7 @@ body
 
 .calculadora-grid .span-two
 {
-    grid-column: span 2;
+    grid-column: span 3;
     background: #d20000;
 }
 

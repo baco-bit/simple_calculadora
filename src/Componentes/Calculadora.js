@@ -58,7 +58,6 @@ const Calculadora = () => {
             </div>
 
             <button onClick={limpiar} className='span-two'>AC</button>
-            <button onClick={() => {}}>DEL</button>
             <button onClick={() => { clickOperacion('/') }}>/</button>
             <button onClick={() => { clickNumber(7) }}>7</button>
             <button onClick={() => { clickNumber(8) }}>8</button>
